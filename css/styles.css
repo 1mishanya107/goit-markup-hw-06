@@ -825,6 +825,12 @@ p {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form .form-input[type='text'],
+.form .form-input[type='tel'],
+.form .form-input[type='email'] {
+  padding-left: 42px;
+}
+
 .form-field .form-input:focus,
 .form-field .form-textarea:focus {
   border: 1px solid var(--accent-color);
