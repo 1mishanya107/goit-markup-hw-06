@@ -863,7 +863,7 @@ p {
   overflow: hidden;
 }
 
-.icon-check {
+.icon-agree {
   position: absolute;
   display: flex;
   align-items: center;
@@ -879,11 +879,8 @@ p {
   border-radius: 2px;
 }
 
-.agree-input:checked ~ .icon-check {
+.agree-input:checked ~ .icon-agree {
   background-color: var(--accent-color);
-  background-image: url(../images/icon-check.svg);
-  background-size: content;
-  background-origin: border-box;
   border: 2px solid var(--accent-color);
 }
 
